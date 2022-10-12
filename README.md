@@ -43,14 +43,16 @@ The state machine contains 4 states – stop, go, warning, and crosswalk. Stop, 
 - Use defines in appropriate .c and .h files. Common defines used in more than one file must be included and .h file and others in .c file.
 - First LOG is not printing from STOP state. 
 - Polling time in states.c file is given wrong for 100ms. 
-- Empty READme File. Make changes.
 - Correct Indentation throughout.
-- Add appropriate comments according to guidelines
+- Add appropriate comments according to guidelines.
+- Empty READme File. Make changes.
+- Statemachines Flowchart missing.
 
 POST REVIEW CHANGES MADE:
 - Have included defines in appropriate files.
 - Added STOP LOG to print first.
 - Polling time corrected.
 - Readme file edited.
+- Added State-machine Flowchart
 - Added comments and Intendation.
 - Added Switch file for extra credits. 
