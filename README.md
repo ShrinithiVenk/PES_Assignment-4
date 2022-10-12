@@ -1,6 +1,6 @@
 # PES_Assignment-4
 
-##GIST
+## GIST
 - Platform used: MCUXpresso environment. 
 - Language Used: C language. 
 The code consists of multiple .c and .h files – main.c, systick.c, touch.c, leds.c, states.c, switch.c, main.h, leds.h, touch.h, states.h, log.h, systick.h, switch.h F
@@ -47,5 +47,10 @@ The state machine contains 4 states – stop, go, warning, and crosswalk. Stop, 
 - Correct Indentation throughout.
 - Add appropriate comments according to guidelines
 
-
-
+POST REVIEW CHANGES MADE:
+- Have included defines in appropriate files.
+- Added STOP LOG to print first.
+- Polling time corrected.
+- Readme file edited.
+- Added comments and Intendation.
+- Added Switch file for extra credits. 
