@@ -1,6 +1,7 @@
 # PES_Assignment-4
 
-## GIST
+### Developed a new traffic light for export to the little-known tropical island of Buffahiti.
+
 - Platform used: MCUXpresso environment. <br />
 - Language Used: C language. <br />
 The code consists of multiple .c and .h files – main.c, systick.c, touch.c, leds.c, states.c, switch.c, main.h, leds.h, touch.h, states.h, log.h, systick.h, switch.h 
