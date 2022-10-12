@@ -1,9 +1,9 @@
 # PES_Assignment-4
 
 ## GIST
-- Platform used: MCUXpresso environment. 
-- Language Used: C language. 
-The code consists of multiple .c and .h files – main.c, systick.c, touch.c, leds.c, states.c, switch.c, main.h, leds.h, touch.h, states.h, log.h, systick.h, switch.h F
+- Platform used: MCUXpresso environment. <br />
+- Language Used: C language. <br />
+The code consists of multiple .c and .h files – main.c, systick.c, touch.c, leds.c, states.c, switch.c, main.h, leds.h, touch.h, states.h, log.h, systick.h, switch.h 
 
 ## .c Files:
 
