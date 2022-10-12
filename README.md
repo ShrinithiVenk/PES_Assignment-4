@@ -31,7 +31,7 @@ Initializes the gpio switch and also has a functions for interrupt handler and d
 
 Contains the main state machine being used. The file contains an enum for declaring states and two structures for led color values (for RGB) and machine’s events for current and next state. The function Loop() is contained inside this file which contains the main working of the state machine described below.  It also defines two modes – DEBUG and PRODUCTION – for different timing configurations.
 
-#The State Machine: <br />
+The States: <br />
 
 The state machine contains 4 states – stop, go, warning, and crosswalk. Stop, go, and warning states are run in main loop one after the other with each active for 5 or 20 seconds depending on the mode choice whether in DEBUG ot PRODUCTION mode. Each state starts with a particular code values of colors RGB and stays with that for respective time. Transition of one state to other takes 1 seconds with each led changing its code value according to a specifies formula. When the button is pressed (TSI touch), the transition happens (in its normal way) to the crosswalk state. Then after blinking the led for 10 seconds, the transition to GO state takes place.
 
